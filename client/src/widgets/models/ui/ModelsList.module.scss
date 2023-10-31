@@ -1,0 +1,16 @@
+.list {
+    list-style-type: none;
+    width: 100%;
+}
+
+.item {
+    :global {
+        & div:first-child {
+            width: 100%;
+        }
+        span {
+            display: flex;
+            align-items: center;
+        }
+    }
+}

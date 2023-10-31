@@ -1,0 +1,17 @@
+version: '3.0'
+
+services:
+    client:
+        container_name: neuron_client
+        build:
+            context: .
+        volumes:
+            - ./:/app
+            - /app/node_modules
+        expose:
+            - 1420:1420
+        ports:
+            - 1420:1420
+        stdin_open: true
+        tty: true
+        command: yarn dev --host 0.0.0.0

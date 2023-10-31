@@ -1,0 +1,11 @@
+.root {
+    display: flex;
+}
+
+.navbar {
+    position: static !important;
+}
+
+.main {
+    flex-grow: 1;
+}

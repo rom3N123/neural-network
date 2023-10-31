@@ -1,0 +1,17 @@
+version: '3.0'
+
+services:
+  main:
+    container_name: main
+    build:
+      context: .
+    env_file:
+      - .env
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    expose:
+      - 7000:7000
+    ports:
+      - 7000:7000
+    command: npm run start:dev

@@ -1,0 +1,1 @@
+export { StartModel } from './ui';

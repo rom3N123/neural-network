@@ -1,0 +1,11 @@
+.flow {
+    :global {
+        .react-flow__panel {
+            display: none;
+        }
+
+        .react-flow__handle {
+            visibility: hidden;
+        }
+    }
+}

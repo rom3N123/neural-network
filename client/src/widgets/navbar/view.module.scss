@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 10px 0;
+    width: 100%;
+    border-bottom: 1px solid var(--_app-shell-border-color);
+}
+
+.item {
+    width: 100%;
+
+    :global {
+        & div:first-child {
+            width: 100%;
+        }
+    }
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    border-radius: 0;
+}
+.bottomContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

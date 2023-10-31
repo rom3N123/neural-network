@@ -1,0 +1,14 @@
+.box {
+    width: 200px;
+    border-radius: var(--mantine-radius-default);
+    box-shadow: var(--mantine-shadow-lg);
+
+    &_dark {
+        background-color: var(--mantine-color-dark-6);
+    }
+
+    &_light {
+        background-color: var(--mantine-color-white);
+        border-color: var(--mantine-color-gray-3);
+    }
+}

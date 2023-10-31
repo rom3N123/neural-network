@@ -1,0 +1,26 @@
+.box {
+    width: 500px;
+    border-radius: var(--mantine-radius-default);
+    box-shadow: var(--mantine-shadow-lg);
+
+    &_dark {
+        background-color: var(--mantine-color-dark-6);
+    }
+
+    &_light {
+        background-color: var(--mantine-color-white);
+        border-color: var(--mantine-color-gray-3);
+    }
+}
+
+.dots {
+    padding: 0px 10px !important;
+}
+
+.header {
+    border-bottom: 1px solid var(--_app-shell-border-color);
+}
+
+.sliderContainer {
+    width: 80%;
+}
